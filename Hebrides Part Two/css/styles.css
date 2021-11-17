@@ -1,0 +1,80 @@
+body {
+    font-family: tahoma, verdana, arial, sans-serif;
+    background-color: #fff;
+    line-height: 1.25em;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1%;
+    text-decoration: none;
+    color: #749EA8;
+    padding: 0 3px;
+}
+
+nav a:hover {
+    background-color: #77A5B1;
+    color: #fff;
+    border: 1px solid #000;    
+    padding: 0 2px;
+}
+
+h1 {
+    text-align: center;
+    color: #72BDFF;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.imgBorder {
+    border: 1px solid #000;
+}
+
+.itinerary {
+    background-color: lightblue;
+    padding: 2%;
+    border: 5px blue ridge;
+    font-size: 0.7em;
+    width: 15em;
+}
+
+.itinerary h2 {
+    text-align: center;
+}
+
+.logo img{    
+    display: block;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+    margin-right: 2%;
+}
+
+.float-right {
+    float: right;
+    margin-left: 2%;
+}
+
+.clear-float {
+    clear: both;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 2% auto;
+    padding: 2% 5%;
+    border: 5px lightblue solid;
+}
